@@ -4,7 +4,8 @@ you can use this command to create login.conf (replace username and password by 
 
     sudo echo -e "username\npass" > /etc/openvpn/login.conf
 
-after create login.conf, move all your ".ovpn" files to "./openvpn_row_files" path and use following command to connect connect openvpn
+after create login.conf, move all your ".ovpn" files to "./openvpn_row_files" path and use following command to connect connect openvpn.
+
     sudo python3 openvpn_connector.py
 
-good luck
+good luck.
